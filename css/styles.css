@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Special+Elite&display=swap');
+
+body {
+  background-image: url(../media/siouxfalls.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-nav  {
+  background-color:#F8F6F0;
+  width: 50%;
+  display:flex; 
+  margin-left: auto;
+  margin-right:auto;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  flex-direction: row;
+  border: solid;
+  
+}
+
+.navbar-nav:hover{
+  background-color: black;
+  color: white;
+}
+
+.nav-link:hover{
+ 
+}
+
+  
+
+span {
+  background-color:#fffebc !important; 
+  display:inline-block !important; 
+  height: 80px !important; 
+  width: 80px !important;
+  border-radius:80px !important;
+  transition: opacity 5s !important;
+  animation: fadein 20s !important;    
+}  
+
+
+
+h1 {
+  font-weight:thick;
+  font-size: 60px; 
+  font-family:sans-serif; 
+  text-align:center;
+  
+}
+
+.header {
+  text-align:center;
+  grid-column:1/4;
+}
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  }
+
+.main {
+  background-color;
+  margin-right:20%;
+  margin-left:20%;
+  margin-top: 20px;
+  grid-column:1/4;
+  text-indent:5%;
+  
+ 
+}
+
+.pmain {
+  font-family:'Roboto'; 
+  font-size:20px;
+  text-align:center justify;
+  text-indent:5%;
+  
+  
+}
+
+.pmain2 {
+  font-family:'Roboto'; 
+  font-size:20px;
+  text-align:center justify;
+  text-indent:5%;
+  
+  
+}
+
+.pmain::selection{
+
+  color:white;
+  background:black;
+}
+
+.pmain2::selection{
+
+  color:white;
+  background:black;
+}
+
+a {
+  text-decoration:none; 
+  font-family: sans-serif; 
+  font-size:20px; 
+  color: black;
+  padding: 45px;
+}
+  
+
+
+
+.button {
+  background-color: #F8F6F0;
+}
+
+ .footer {
+   
+   margin-top: 50px;
+   grid-column:1/4;
+   text-align: center;
+   
+ }
+
+ .pfoot {
+   border: solid;
+ }
+
+ textarea:focus {
+   background-color:ivory;
+ }
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media screen and (max-width: 1308px){
+  body{background-image:none; background-color: white;
+
+  }
+
+}
